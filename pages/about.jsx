@@ -64,7 +64,7 @@ const About = () => {
         <div className="become-first-container">
           <div className="become-first-main">
             <h1>
-              Your next chapter,<span>made possible&nbsp;</span> by Mentoring
+            Join Our <span>Expert Network&nbsp;</span>  at iWhims
             </h1>
             <div className="become-first-btnun">
               <button className="btn btn-outline-primary navbar-round" href="#">
@@ -79,9 +79,9 @@ const About = () => {
         <div className="become-second-container">
           <div className="become-second-main">
             <h2>
-              Professional can help you&nbsp;turn{" "}
-              <span>your&nbsp;passion into conversations,</span> friendships and
-              network globally
+            Transform Your Expertise into &nbsp;
+              <span>Impact and Income</span> 
+              
             </h2>
             <img src="./images/become-img.png" alt="" />
           </div>

@@ -29,7 +29,7 @@ const Header = () => {
         <div className="container-fluid d-flex justify-content-between">
           <div className="logo-navbar loho-font">
             <a className="navbar-brand fs-3 fw-bold" href="#">
-              Whims
+              iWhims
             </a>
           </div>
           <div className="hamburger-icon">

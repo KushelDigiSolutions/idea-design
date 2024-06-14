@@ -197,8 +197,8 @@ export default function Home() {
           <div className="row">
 
             <div className="col-lg-6">
-              <h1>Ready to start by engaging <span>expert professionals.</span></h1>
-              <p>Book and meet over 12,06+ professionals for solutions in our global community.</p>
+              <h1>Ditch the Struggle, Find Your Expert:  <span> iWhims Connects</span>You to On-Demand Experts</h1>
+              <p>We connect you with a network of trusted professionals, 24/7, across various fields - Law, Education, Finance, Healthcare, you name it!</p>
             </div>
 
             <div className="col-lg-6 text-end">
@@ -234,8 +234,8 @@ export default function Home() {
                 <img src="/  ./images/Color Letter Avatar.png" alt="" />
               </div>
               <div className="title-sec2">
-                <h2>An open access to the world’s best.</h2>
-                <p>From Design to AI, there are thousands of top experts, you can get access for free.</p>
+                <h2>Ask Your Question</h2>
+                <p>Describe your situation or ask a question from our experts in any of our categories, at any time.</p>
               </div>
             </div>
             <div className="blue-sec2">
@@ -243,8 +243,8 @@ export default function Home() {
                 <img src="/  ./images/Color Letter Avatar (1).png" alt="" />
               </div>
               <div className="title-sec2">
-                <h2>An open access to the world’s best.</h2>
-                <p>From Design to AI, there are thousands of top experts, you can get access for free.</p>
+                <h2>Let Us Get You a Match</h2>
+                <p>Our sophisticated matching system will connect you with the best expert for your specific inquiry within minutes.</p>
               </div>
             </div>
             <div className="green-sec2">
@@ -252,8 +252,9 @@ export default function Home() {
                 <img src="/  ./images/Color Letter Avatar (2).png" alt="" />
               </div>
               <div className="title-sec2">
-                <h2>An open access to the world’s best.</h2>
-                <p>From Design to AI, there are thousands of top experts, you can get access for free.</p>
+                <h2>Interact with a Matched Expert
+                </h2>
+                <p>Get personalized advice from your expert through text, call, or in-person arrangements with unlimited access.</p>
               </div>
             </div>
           </div>

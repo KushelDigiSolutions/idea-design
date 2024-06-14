@@ -128,7 +128,7 @@ color: #16171B;
   font-weight: 500;
   font-size: 22px;
   line-height: 24px;
-  width: 19em;
+  width: 20em;
   color: #0A243F;
   padding-top: 10px;
 }
@@ -195,7 +195,7 @@ color: #16171B;
   line-height: 28px;
   font-weight: 600;
   color: #6E0BD4;
-  width: 10em;
+  width: 11em;
 }
 .green-sec2 h2{
   font-family: CircularStd;
@@ -1480,7 +1480,7 @@ line-height: 52px;
 letter-spacing: -0.02em;
 text-align: center;
 color: #16171B;
-width: 14em;
+width: 12em;
 }
 .become-first-main h1 span{
 font-family: CircularStd;
@@ -1512,7 +1512,7 @@ line-height: 52px;
 letter-spacing: -0.02em;
 text-align: center;
 color: #16171B;
-width: 21em;
+width: 16em;
 }
 .become-second-main h2 span{
 font-family: CircularStd;
@@ -1881,13 +1881,107 @@ padding: 60PX;
 .fifth-section-crouser-sec::-webkit-scrollbar {
   display: none;  
 }
+/* surbhi css ....... */
+#make_profile{
+  
+}
+#make_profile .left_section_make {
+ background-repeat: no-repeat;
+ background-position: center;
+ background-image: url('../public/images/backimgmakeprofile.png');
+ width: 50%;
+ background-size: cover;
+ }
+ #make_profile .right_section_make{
+  width: 50%;
+  display: flex;
+    justify-content: center;
+ }
+ #make_profile .content{
+  display: flex;
+  justify-content: center;
+  height: 100vh ;
+ }
+ #make_profile .left_section_make h2{
+  font-size: 45px;
+    font-weight: 700;
+    color: #16171B;
+    line-height: 52px;
+    width: 11em;
+ }
+ #make_profile .left_section_make h2 span{
+  color: #0B56E4 !important;
+ }
+ #make_profile  .left_section{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  padding-bottom: 100px;
+ }
+ #make_profile .right_section_make .right_content{
+  border: 1px solid #EFF1F3;
+    border-radius: 24px;
+    width: 600px;
+    padding: 40px 36px;
+ }
+ #make_profile .right_section_make .para1{
+  color: #909CA8;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+}
+#make_profile .right_section_make h1{
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A243F;
+    width: 13em;
+}
+#make_profile .right_section_make .para2{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  padding-top: 16px;
+}
+#make_profile .right_section_make .profile{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.profile_sec p{
+  margin-bottom: 0px !important;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+}
+.profile_sec .para1{
+  color: #0B48B6 !important;
+}
+#make_profile .right_section_make .profile2{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  background-color: #F5F8FE;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0px;
+}
 
-
-
-
-
-
-
+#make_profile .right_section_make .profile2 p{
+  width: 19em;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #0B48B6;
+    margin-bottom: 0px !important;
+}
+#make_profile .right_section_make form select{
+  height: 60px !important;
+}
 
 
 /* responsive csss ......................... */
