@@ -1983,9 +1983,931 @@ padding: 60PX;
   height: 60px !important;
 }
 
+#iwhims-professional-details .iwhims-professional-banner {
+  background-image: url("/images/iwhims-banner-1.png");
+  background-position:  center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#iwhims-professional-details .iwhims-professional-container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 60px 60px;
+  margin: auto;
+  display: block;
+}
+
+#iwhims-professional-details .iwhims-professional-container1 {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 80px;
+  display: block;
+  margin: auto;
+}
+
+#iwhims-professional-details .iwhims-professional-content1 {
+  display: flex;
+  justify-content:  center;
+  gap: 16px;
+}
+
+#iwhims-professional-details .iwhims-heading {
+  width: 20%;
+}
+
+#iwhims-professional-details .iwhims-heading2 {
+  width: 100%;
+}
+
+#iwhims-professional-details .iwhims-professional-image-left {
+  position: relative;
+  bottom: 60px;
+}
+
+#iwhims-professional-details .iwhims-professional-content-left {
+  display: flex;
+  justify-content: space-around;
+  align-items:  center
+}
+
+#iwhims-professional-details .iwhims-professional-content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+#iwhims-professional-details .iwhims-professional-content-main h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-content-flex {
+  display: flex;
+  justify-content:  center;
+  gap: 4px;
+}
+
+#iwhims-professional-details .iwhims-paragraph234 p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+  max-width: 15em;
+  width: 100%;
+}
+
+#iwhims-professional-details .iwhims-professional-content-buttons {
+  display: flex;
+  justify-content:  center;
+  gap: 15px;
+}
+
+#iwhims-professional-details .iwhims-button-group button:hover {
+  background-color: #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-button-group button:hover span {
+  color: white;
+}
+
+#iwhims-professional-details .iwhims-button-group button:hover svg path {
+  fill: white;
+}
+
+#iwhims-professional-details .iwhims-button-group button {
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #D7DCE0;
+  background-color: #F7F8F9;
+}
+
+#iwhims-professional-details .iwhims-button-group1 button:hover {
+  background-color: #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-button-group1 button:hover span {
+  color: white;
+}
+
+#iwhims-professional-details .iwhims-button-group1 button:hover svg path {
+  fill: white;
+}
+
+#iwhims-professional-details .iwhims-button-group1 button {
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #D7DCE0;
+  background-color: #F7F8F9;
+}
+
+#iwhims-professional-details .iwhims-button-group2 button:hover {
+  background-color: #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-button-group2 button:hover svg path {
+  fill: white;
+}
+
+#iwhims-professional-details .iwhims-button-group2 button {
+  width: 60px;
+  padding: 08px;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid #D7DCE0;
+  background-color: #F7F8F9;
+}
+
+#iwhims-professional-details .iwhims-professional-container2 {
+  max-width: 1440px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 0px 85px;
+}
+
+#iwhims-professional-details .iwhims-professional-content-main-main {
+  display: flex;
+  justify-content:  center;
+  align-items: self-start;
+  gap: 30px;
+}
+
+#iwhims-professional-details .iwhims-professional-content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+
+  gap: 16px;
+}
+
+#iwhims-professional-details .iwhims-professional-main-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 30px;
+
+}
+
+#iwhims-professional-details .iwhims-professional-main-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+
+  gap: 12px;
+}
+
+#iwhims-professional-details .iwhims-professional-content-flex-main {
+  display: flex;
+  border-bottom: 1px solid #E7EAEC;
+  padding: 13px;
+
+}
+
+#iwhims-professional-details .iwhims-professional-content-flex-main h2:hover {
+  color: #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-professional-content-flex-main h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+  width: 182px;
+}
+
+#iwhims-professional-details .iwhims-professional-content-para p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+  max-width: 46.9em;
+  width: 100%;
+}
+
+#iwhims-professional-details .iwhims-professional-contain-main {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items:  center;
+  gap: 24px;
+}
+
+#iwhims-professional-details .iwhims-professional-content-main-flex2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+
+  border-radius: 30px;
+  border: 1px solid #D7DCE0;
+  padding: 20px 24px 20px 24px;
+  gap: 24px;
+  width: 773px;
+}
+
+#iwhims-professional-details .iwhims-professional-flex-main-content0 {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  border-bottom: 1px solid #E7EAEC;
+  padding-bottom: 13px;
+}
+
+#iwhims-professional-details .iwhims-professional-flex-main-content0 p {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button3 button:hover {
+  background-color: #F5F8FE;
+  color: #0B56E4;
+  border: 1px solid #0B56E4;
+
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button3 button {
+  width: 155px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  padding: 14px 09px 14px 09px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #F7F8F9;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-container-professional {
+  display: flex;
+  justify-content: space-between;
+}
+
+#iwhims-professional-details .iwhims-professional-flex-main-content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  border-bottom: 1px solid #E7EAEC;
+  padding-bottom: 13px;
+}
+
+#iwhims-professional-details .iwhims-professional-flex-main-content1 p {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #495D71;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button0 button:hover {
+  background-color: #F5F8FE;
+  color: #0B56E4;
+  border: 1px solid #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button0 button {
+  width: 49px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  padding: 14px 09px 14px 09px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #F7F8F9;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-flex-main-content2 {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+#iwhims-professional-details .iwhims-button {
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  gap: 10px;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button1 button:hover {
+  background-color: #F5F8FE;
+  color: #0B56E4;
+  border: 1px solid #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button1 button {
+  width: 78px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  padding: 14px 09px 14px 09px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #F7F8F9;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-flex-main-content2 p {
+  font-size: 19px;
+  line-height: 22px;
+  color: #495D71;
+  font-weight: 500;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button button:hover {
+  background-color: #F5F8FE;
+  color: #0B56E4;
+  border: 1px solid #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button button {
+  width: 79px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  padding: 14px 09px 14px 09px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #F7F8F9;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button2 button:hover {
+  background-color: #F5F8FE;
+  color: #0B56E4;
+  border: 1px solid #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-professional-contnet-button2 button {
+  width: 95px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  padding: 14px 09px 14px 09px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #F7F8F9;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-content-main123 {
+  width: 773px;
+  padding: 20px 24px 40px 24px;
+  border-radius: 30px;
+  border: 1px solid #E7EAEC;
+}
+
+#iwhims-professional-details .iwhims-professional-second-card {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  gap: 40px;
+}
+
+#iwhims-professional-details .iwhims--para h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #0A243F;
+
+}
+
+#iwhims-professional-details .iwhims-professional-card-main {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+
+}
+
+#iwhims-professional-details .iwhims-border-para p {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #495D71;
+}
+
+#iwhims-professional-details .iwhims-profwsssional-button button:hover {
+  background-color: #F5F8FE;
+  color: #0B56E4;
+  border: 1px solid #0B56E4;
+}
+
+#iwhims-professional-details .iwhims-profwsssional-button button {
+  width: 93px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  padding: 14px 09px 14px 09px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #F7F8F9;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-third-card {
+  border: 1px solid #E7EAEC;
+  width: 773px;
+  border-radius: 30px;
+  padding: 20px 24px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 50px;
+
+}
+
+#iwhims-professional-details .iwhims-professional-third-card h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-flex {
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #EFF1F3;
+  padding-bottom: 13px;
+}
+
+#iwhims-professional-details .iwhims-professional-flex1 {
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#iwhims-professional-details .iwhims-professional-XYZ {
+  display: flex;
+
+}
+
+#iwhims-professional-details .iwhims-professional-cartificate {
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  gap: 10px;
+}
+
+#iwhims-professional-details .iwhims-professional h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #16171B;
+}
+
+#iwhims-professional-details .iwhims-professional p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+}
+
+#iwhims-professional-details .iwhims-professional-dates p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+  text-align: right;
+}
+/* END Cards */
+
+#iwhims-professional-details .iwhims-professional-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+
+  align-items:  center;
+  gap: 24px;
+  padding-top: 34px;
+}
+
+#iwhims-professional-details .iwhims-professional-flex2 {
+  width: 372px;
+  padding: 20px 24px 20px 24px;
+  border: 1px solid #D7DCE0;
+  background-color: #F7F8F9;
+  border-radius: 12px;
+}
+
+#iwhims-professional-details .iwhims-professional-code {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  gap: 12px;
+}
+
+#iwhims-professional-details .iwhims-professional-code h2 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-community {
+  display: flex;
+  justify-content:  center;
+  gap: 54px;
+}
+
+#iwhims-professional-details .iwhims-professional-followers {
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  gap: 16px;
+}
+
+#iwhims-professional-details .iwhims-professional-icons-paara {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#iwhims-professional-details .iwhims-followers-flex h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-followers-flex p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #495D71;
+}
+
+#iwhims-professional-details .iwhims-professional-cards-main {
+  width: 372px;
+  padding: 20px 24px 20px 24px;
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px solid #D7DCE0;
+  background-color: #F7F8F9;
+  display: flex;
+  justify-content:  center;
+}
+
+#iwhims-professional-details .iwhims-professional-cards-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content:  center;
+}
+
+#iwhims-professional-details .iwhims-professional-caards-first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+
+#iwhims-professional-details .iwhims-professional-caards-first-section h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-caards-first-section p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #495D71;
+  font-weight: 400;
+  letter-spacing: 25%;
+}
+
+#iwhims-professional-details .iwhims-prodfessional-dates {
+  display: flex;
+  align-items:  center;
+  gap: 10px;
+
+}
+
+#iwhims-professional-details .iwhims-profesional-right-card {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  border: 1px solid #D7DCE0;
+  padding: 10px;
+  border-radius: 12px;
+  gap: 5px;
+}
+
+#iwhims-professional-details .iwhims-profesional-right-card span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #495D71;
+  text-align:  center;
+}
+
+#iwhims-professional-details .iwhims-profesional-right-card p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #0A243F;
+  display: flex;
+  text-align:  center;
+}
+
+#iwhims-professional-details .iwhims-professional-right-card-section2 {
+  display: flex;
+  align-items:  center;
+  gap: 15px;
+}
+
+#iwhims-professional-details .iwhims-professional-icons-paara h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #495D71;
+  text-align: start;
+}
+
+#iwhims-professional-details .iwhims-professional-icons-paara span {
+  font-size: 17px;
+  font-weight: 400;
+  color: #495D71;
+  line-height: 20px;
+  text-align: start;
+}
+
+#iwhims-professional-details .iwhims-professional-cardss {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items:  center;
+  gap: 12px;
+}
+
+#iwhims-professional-details .iwhims-professional-icons-cards {
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  gap: 08px;
+}
+
+#iwhims-professional-details .iwhims-scheduled-cards {
+  border: 1px solid #D7DCE0;
+  padding: 14px 16px 14px 16px;
+  border-radius: 10px;
+  width: 102px;
+}
+
+#iwhims-professional-details .iwhims-scheduled-cards p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #495D71;
+}
+
+#iwhims-professional-details .button-group-iwhims-professional button {
+  width: 300px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #0B56E4;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align:  center;
+
+}
+
+#iwhims-professional-details .iwhims-professional-third-cards-last {
+  background-color: #F7F8F9;
+  padding: 16px 24px 16px 24px;
+  width: 372px;
+  border-radius: 10px;
+  border: 1px solid #D7DCE0;
+  display: flex;
+  text-align: start;
+}
+
+#iwhims-professional-details .iwhims-professional-third-last {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  justify-content:  center;
+  gap: 15px;
+}
+
+#iwhims-professional-details .iwhims-professional-social h2 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0A243F;
+}
+
+#iwhims-professional-details .iwhims-professional-icons-flex {
+  display: flex;
+  gap: 10px;
+  align-items:  center;
+}
 
 /* responsive csss ......................... */
 
+@media (max-width:1190px){
+  #iwhims-professional-details .iwhims-professional-cards-main{
+      width: 350px;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main-flex2{
+      width: 690px;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-third-card{
+      width: 690px;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main123{
+      width: 690px;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-third-cards-last{
+      width: 350px;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-flex2{
+      width: 350px;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-content-para p{
+       font-size: 15px;
+       max-width: 41.9em;
+       width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main-main{
+      gap: 20px;
+  }
+}
+
+@media(max-width:1070px){
+  #iwhims-professional-details .iwhims-professional-cards-main{
+      width: 330px;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main-flex2{
+      width: 620px;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main123{
+      width: 620px;
+  }
+  #iwhims-professional-details .iwhims-professional-third-card{
+      width: 620px;
+  }
+  #iwhims-professional-details .iwhims-professional-flex2{
+      width: 330px;
+  }
+  #iwhims-professional-details .iwhims-professional-third-cards-last{
+      width: 300px;
+  }
+
+}
+@media(max-width:1000px){
+  #iwhims-professional-details .iwhims-scheduled-cards{
+      width: 90px;
+      padding: 7px 7px 7px 7px;
+  }
+  #iwhims-professional-details .button-group-iwhims-professional button{
+      width: 220px;
+      padding: 12px;
+  }
+  #iwhims-professional-details .iwhims-profesional-right-card{
+      padding: 6px;
+  }
+  #iwhims-professional-details .iwhims-professional-cards-main{
+      width: 300px;
+  }
+  #iwhims-professional-details .iwhims-professional-flex2{
+      width: 300px;
+  }
+  #iwhims-professional-details .iwhims-professional-community{
+      gap: 30px;
+  }
+  #iwhims-professional-details .iwhims-professional-third-cards-last{
+      width: 300px;
+  }
+  #iwhims-professional-details .iwhims-professional-content-para p{
+      font-size: 14px;
+      max-width: 100%;
+      width: 100%;
+      
+  }
+  #iwhims-professional-details .iwhims-professional-third-card{
+      gap: 25px;
+  }
+  #iwhims-professional-details .iwhims-professional-second-card{
+      gap: 25px;
+  }
+  
+  
+
+}
+
+@media(max-width:950px){
+  #iwhims-professional-details .iwhims-professional-content-main-main{
+      flex-direction: column;
+      align-items:   center;
+  }
+  #iwhims-professional-details .iwhims-professional-main-content{
+      flex-direction: column;
+      /* align-items:   center; */
+      gap: 0px;
+  }
+  #iwhims-professional-details .iwhims-professional-main-content1{
+      align-items:   center;
+  }
+  #iwhims-professional-details .iwhims-heading{
+      width: 50%;
+  }
+  #iwhims-professional-details .iwhims-professional-flex2{
+      max-width: 100%;
+      width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-cards-main{
+      max-width: 100%;
+      width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-third-cards-last{
+      max-width: 100%;
+      width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main-flex2{
+      width: 100%;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-content-main123{
+      width: 100%;
+      max-width: 100%;
+  }
+  #iwhims-professional-details .iwhims-professional-third-card{
+      width: 100%;
+      max-width: 100%;
+  }
+  .iwhims-professional-cards-2 {
+      width: 100%;
+  }
+  iwhims-content-card-flex234{
+      width: 100%;
+  }
+}
+@media(max-width:610px){
+  #iwhims-professional-details .iwhims-professional-content1{
+      flex-direction: column;
+  }
+  #iwhims-professional-details .iwhims-professional-content1{
+      gap: 0px;
+      display: flex;
+  }
+  #iwhims-professional-details .iwhims-professional-image-left {
+      height: 175px;
+  }
+  #iwhims-professional-details .iwhims-professional-main-content {
+      gap: 20px;
+  }
+  #iwhims-professional-details .iwhims-professional-container1 , #iwhims-professional-details .iwhims-professional-container2{
+      padding: 0px 40px;    
+  }
+}
 @media(max-width:1435px){
   .second-baner-main{
     flex-wrap: wrap;
