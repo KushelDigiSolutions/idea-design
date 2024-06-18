@@ -17,7 +17,7 @@ const professional_details = () => {
                         <div className="iwhims-professional-main-content">
                             <div className="iwhims-professional-content1">
                                 <div className="iwhims-professional-image-left">
-                                    <img src="./images/iwhims-image1.png" alt="" />
+                                    <img src="/images/iwhims-image1.png" alt="" />
                                 </div>
                                 <div className="iwhims-professional-content-main">
                                     <h1>Vibha Finaviya</h1>
@@ -155,101 +155,284 @@ const professional_details = () => {
                                             <h2>Review</h2>
                                         </div>
                                     </div>
-                                    <div className="iwhims-professional-content-para">
-                                        <p>
-                                            Hi, I’m Vibha and I have over 7 years of experience in Analytics
-                                            and Data Sciences. I am currently working as a Senior Data
-                                            Scientist in a tech company based out USA. I enjoy sharing my
-                                            experience and helping the community in my spare time. I craft
-                                            end-to-end data products and provide actionable insights in my
-                                            daily routines to help business improve day by day. Love to
-                                            discuss anything related data science, job search, interview
-                                            preparation.
-                                        </p>
+
+                                    {/* first section ........... */}
+                                    {/* <div>
+                                        <div class="iwhims-professional-content-para">
+                                            <p>Hi, I’m Vibha and I have over 7 years of experience in Analytics and Data Sciences. I
+                                                am
+                                                currently working as a Senior Data Scientist in a tech company based out USA. I
+                                                enjoy
+                                                sharing my experience and helping the community in my spare time. I craft end-to-end
+                                                data products and provide actionable insights in my daily routines to help business
+                                                improve day by day. Love to discuss anything related data science, job search,
+                                                interview
+                                                preparation.
+                                            </p>
+                                        </div>
+                                        <div class="iwhims-professional-contain-main">
+                                            <div class="iwhims-professional-content-main-flex2">
+                                                <div class="iwhims-professional-flex-main-content0">
+                                                    <p>Expertise</p>
+                                                    <div class="iwhims-professional-contnet-button3">
+                                                        <button type="submit">Data Sciences</button>
+                                                    </div>
+                                                </div>
+                                                <div class="iwhims-professional-flex-main-content1">
+                                                    <p>City</p>
+                                                    <div class="iwhims-button">
+                                                        <div class="iwhims-professional-contnet-button0">
+                                                            <button type="submit">In</button>
+                                                        </div>
+                                                        <div class="iwhims-professional-contnet-button1">
+                                                            <button type="submit">Delhi</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="iwhims-professional-flex-main-content2">
+                                                    <p>Language</p>
+                                                    <div class="iwhims-button">
+                                                        <div class="iwhims-professional-contnet-button">
+                                                            <button type="submit">Hindi</button>
+                                                        </div>
+                                                        <div class="iwhims-professional-contnet-button2">
+                                                            <button type="submit">English</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="iwhims-professional-content-main123">
+                                                <div class="iwhims-professional-second-card">
+                                                    <div class="iwhims--para">
+                                                        <h2>Experience</h2>
+                                                    </div>
+                                                    <div class="iwhims-professional-card-main">
+                                                        <div class="iwhims-border-para">
+                                                            <p>As a Data Science</p>
+                                                        </div>
+                                                        <div class="iwhims-profwsssional-button">
+                                                            <button type="submit">7 Years</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="iwhims-professional-third-card">
+                                                <h2>Achievements</h2>
+                                                <div class="iwhims-professional-XYZ">
+                                                    <div class="iwhims-professional-flex">
+                                                        <div class="iwhims-professional-cartificate">
+                                                            <div class="iwhims-professional-icons">
+                                                                <img src="./images/edu.png" alt="" />
+                                                            </div>
+                                                            <div class="iwhims-professional">
+                                                                <h2>XYZ Certificate</h2>
+                                                                <p>See credentials</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="iwhims-professional-dates">
+                                                            <p>14 Jun, 2022</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="iwhims-professional-XYZ">
+                                                    <div class="iwhims-professional-flex1">
+                                                        <div class="iwhims-professional-cartificate">
+                                                            <div class="iwhims-professional-icons">
+                                                                <img src="./images/edu.png" alt="" />
+                                                            </div>
+                                                            <div class="iwhims-professional">
+                                                                <h2>XYZ Certificate</h2>
+                                                                <p>See credentials</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="iwhims-professional-dates">
+                                                            <p>14 Jun, 2022</p>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> */}
+                                    {/* first end section ............. */}
+
+
+                                    {/* second section ............. */}
+                                    <div>
+                                        <div className="iwhims-dynamic-content">
+                                            <div className="iwhims-review-heading2">
+                                                <h2>People often say</h2>
+                                            </div>
+                                            <div className="iwhims-reviews-container-content">
+                                                <div className="iwhims-review-content-main-para">
+                                                    <div className="iwhims-review-icons-para-content">
+                                                        <img src="/images/review-image.svg" alt="" />
+                                                    </div>
+                                                    <div className="iwhims-review-heading-para">
+                                                        <h2>Wade Warren</h2>
+                                                        <p>Practice</p>
+                                                    </div>
+                                                </div>
+                                                <div className="iwhims-para">
+                                                    <span>May 28, 2024</span>
+                                                </div>
+                                                <div className="iwhims-para2">
+                                                    <p>
+                                                        She had a positive approach, the conversation was more on
+                                                        the side of how I should approach my problems and it really
+                                                        helped me a lot.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="iwhims-reviews-container-content">
+                                                <div className="iwhims-review-content-main-para">
+                                                    <div className="iwhims-review-icons-para-content">
+                                                        <img src="/images/review-image.svg" alt="" />
+                                                    </div>
+                                                    <div className="iwhims-review-heading-para">
+                                                        <h2>Brooklyn Simmons</h2>
+                                                        <p>Practice</p>
+                                                    </div>
+                                                </div>
+                                                <div className="iwhims-para">
+                                                    <span>May 28, 2024</span>
+                                                </div>
+                                                <div className="iwhims-para2">
+                                                    <p>
+                                                        Our chat was about motivation and some reality check. Please
+                                                        do take a session.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="iwhims-reviews-container-content">
+                                                <div className="iwhims-review-content-main-para">
+                                                    <div className="iwhims-review-icons-para-content">
+                                                        <img src="/images/review-image.svg" alt="" />
+                                                    </div>
+                                                    <div className="iwhims-review-heading-para">
+                                                        <h2>Jerome Bell</h2>
+                                                        <p>Practice</p>
+                                                    </div>
+                                                </div>
+                                                <div className="iwhims-para">
+                                                    <span>May 28, 2024</span>
+                                                </div>
+                                                <div className="iwhims-para3">
+                                                    <p>
+                                                        Our chat was about motivation and some reality check. Please
+                                                        do take a session.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="iwhims-dynamic-icons">
+                                            <div className="iwhims-synamic-icons-container">
+                                                <div className="button-group">
+                                                    <svg
+                                                        width={10}
+                                                        height={12}
+                                                        viewBox="0 0 8 12"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M6.5 12L0.5 6L6.5 0L7.9 1.4L3.3 6L7.9 10.6L6.5 12Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                                <div className="button-group1">
+                                                    <svg
+                                                        width={6}
+                                                        height={12}
+                                                        viewBox="0 0 6 12"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M5.226 12H3.594V4.231H0.925V3.058C2.455 3.024 3.509 2.174 3.764 0.984H5.226V12Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                                <div className="button-group1">
+                                                    <svg
+                                                        width={8}
+                                                        height={12}
+                                                        viewBox="0 0 8 12"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M1.897 4.945L0.231 4.741C0.214 4.588 0.214 4.435 0.214 4.299C0.214 2.412 1.608 0.728999 4.022 0.728999C6.385 0.728999 7.745 2.276 7.745 4.112C7.745 5.557 6.929 6.713 5.671 7.512L3.495 8.906C2.866 9.314 2.305 9.773 2.152 10.453H7.813V12H0.095C0.129 10.198 0.843 8.821 2.713 7.614L4.549 6.424C5.586 5.761 6.062 4.979 6.062 4.129C6.062 3.126 5.382 2.191 3.988 2.191C2.543 2.191 1.863 3.194 1.863 4.452C1.863 4.605 1.88 4.775 1.897 4.945Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                                <div className="button-group1">
+                                                    <svg
+                                                        width={9}
+                                                        height={13}
+                                                        viewBox="0 0 9 13"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M3.325 6.883L2.509 5.506L5.756 2.514H0.486V0.984H7.966V2.48L4.821 5.387C6.436 5.387 8.221 6.475 8.221 8.736C8.221 10.589 6.793 12.272 4.226 12.272C1.676 12.272 0.231 10.606 0.129 8.804L1.761 8.43C1.829 9.892 2.883 10.81 4.209 10.81C5.722 10.81 6.538 9.875 6.538 8.77C6.538 7.325 5.382 6.713 4.294 6.713C3.954 6.713 3.614 6.781 3.325 6.883Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                                <div className="button-group1">
+                                                    <svg
+                                                        width={9}
+                                                        height={12}
+                                                        viewBox="0 0 9 12"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M0.095 9.518V7.597L4.821 0.984H7.116V7.971H9.003V9.518H7.116V12H5.501V9.518H0.095ZM5.501 7.971V2.582L1.625 7.971H5.501Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                                <div className="button-group">
+                                                    <svg
+                                                        width={13}
+                                                        height={4}
+                                                        viewBox="0 0 13 4"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M0.69 1.912C0.69 1.249 1.2 0.722 1.863 0.722C2.526 0.722 3.053 1.249 3.053 1.912C3.053 2.575 2.526 3.085 1.863 3.085C1.2 3.085 0.69 2.575 0.69 1.912ZM5.43805 1.912C5.43805 1.249 5.94805 0.722 6.61105 0.722C7.27405 0.722 7.80105 1.249 7.80105 1.912C7.80105 2.575 7.27405 3.085 6.61105 3.085C5.94805 3.085 5.43805 2.575 5.43805 1.912ZM10.1861 1.912C10.1861 1.249 10.6961 0.722 11.3591 0.722C12.0221 0.722 12.5491 1.249 12.5491 1.912C12.5491 2.575 12.0221 3.085 11.3591 3.085C10.6961 3.085 10.1861 2.575 10.1861 1.912Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                                <div className="button-group">
+                                                    <svg
+                                                        width={8}
+                                                        height={12}
+                                                        viewBox="0 0 8 12"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path
+                                                            d="M1.5 -5.24537e-07L7.5 6L1.5 12L0.1 10.6L4.7 6L0.100001 1.4L1.5 -5.24537e-07Z"
+                                                            fill="#0A243F"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    {/* second end section .............. */}
                                 </div>
-                                <div className="iwhims-professional-contain-main">
-                                    <div className="iwhims-professional-content-main-flex2">
-                                        <div className="iwhims-professional-flex-main-content0">
-                                            <p>Expertise</p>
-                                            <div className="iwhims-professional-contnet-button3">
-                                                <button type="submit">Data Sciences</button>
-                                            </div>
-                                        </div>
-                                        <div className="iwhims-professional-flex-main-content1">
-                                            <p>City</p>
-                                            <div className="iwhims-button">
-                                                <div className="iwhims-professional-contnet-button0">
-                                                    <button type="submit">In</button>
-                                                </div>
-                                                <div className="iwhims-professional-contnet-button1">
-                                                    <button type="submit">Delhi</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="iwhims-professional-flex-main-content2">
-                                            <p>Language</p>
-                                            <div className="iwhims-button">
-                                                <div className="iwhims-professional-contnet-button">
-                                                    <button type="submit">Hindi</button>
-                                                </div>
-                                                <div className="iwhims-professional-contnet-button2">
-                                                    <button type="submit">English</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="iwhims-professional-content-main123">
-                                        <div className="iwhims-professional-second-card">
-                                            <div className="iwhims--para">
-                                                <h2>Experience</h2>
-                                            </div>
-                                            <div className="iwhims-professional-card-main">
-                                                <div className="iwhims-border-para">
-                                                    <p>As a Data Science</p>
-                                                </div>
-                                                <div className="iwhims-profwsssional-button">
-                                                    <button type="submit">7 Years</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="iwhims-professional-third-card">
-                                        <h2>Achievements</h2>
-                                        <div className="iwhims-professional-XYZ">
-                                            <div className="iwhims-professional-flex">
-                                                <div className="iwhims-professional-cartificate">
-                                                    <div className="iwhims-professional-icons">
-                                                        <img src="./images/certificates.svg" alt="" />
-                                                    </div>
-                                                    <div className="iwhims-professional">
-                                                        <h2>XYZ Certificate</h2>
-                                                        <p>See credentials</p>
-                                                    </div>
-                                                </div>
-                                                <div className="iwhims-professional-dates">
-                                                    <p>14 Jun, 2022</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="iwhims-professional-XYZ">
-                                            <div className="iwhims-professional-flex1">
-                                                <div className="iwhims-professional-cartificate">
-                                                    <div className="iwhims-professional-icons">
-                                                        <img src="./images/certificates.svg" alt="" />
-                                                    </div>
-                                                    <div className="iwhims-professional">
-                                                        <h2>XYZ Certificate</h2>
-                                                        <p>See credentials</p>
-                                                    </div>
-                                                </div>
-                                                <div className="iwhims-professional-dates">
-                                                    <p>14 Jun, 2022</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                             <div className="iwhims-professional-cards-container">
                                 <div className="iwhims-content-card-flex234">
@@ -414,13 +597,13 @@ const professional_details = () => {
                                         </div>
                                         <div className="iwhims-professional-icons-flex">
                                             <div className="iwhims-facebook">
-                                                <img src="./images/facebook.svg" alt="" />
+                                                <img src="/images/facebook.svg" alt="" />
                                             </div>
                                             <div className="iwhims-facebook">
-                                                <img src="./images/instagram.svg" alt="" />
+                                                <img src="/images/instagram.svg" alt="" />
                                             </div>
                                             <div className="iwhims-facebook">
-                                                <img src="./images/TwitterLogo.svg" alt="" />
+                                                <img src="/images/TwitterLogo.svg" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -430,7 +613,6 @@ const professional_details = () => {
                     </div>
                 </div>
             </div>
-            
             <Footer />
         </>
     )
