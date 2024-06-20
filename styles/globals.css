@@ -25,6 +25,11 @@ line-height: 52px;
 text-align: center;
 color: #16171B;
 }
+.jk{
+  position: initial !important;
+  background-color: white !important;
+  margin-top: 50px;
+}
 .rifht-text-font a{
   font-family: CircularStd;
   font-size: 20px;

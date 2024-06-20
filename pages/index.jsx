@@ -1255,7 +1255,7 @@ export default function Home() {
 
       <div id="logo-slider-main">
         <section className="trigger section gutter-horizontal bg-gray gutter-vertical--m gutter-horizontal centere-in-max">
-          <div className="customer-logos slider">
+          <div className="customer-logos slider jk">
             <Slider {...setting2}>
               <div className="slide-in-right slide">
                 <img src="./images/splide1.svg" alt="" />
