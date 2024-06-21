@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-const filter_form = () => {
+const filterform = () => {
     const [show ,setShow]=useState(false);
     const clickHandler=()=>{
         setShow(!show)
@@ -42,7 +42,7 @@ const filter_form = () => {
 
                     <select  id='year' placeholder="year">
                         <option value="0">year</option>
-                        <option value="1"><span>All</span></option>
+                        <option value="1">All</option>
                         <option value="">Below 1 year</option>
                         <option value="">1-2 years</option>
                         <option value="">3-5 years</option>
@@ -100,4 +100,4 @@ const filter_form = () => {
   )
 }
 
-export default filter_form
+export default filterform

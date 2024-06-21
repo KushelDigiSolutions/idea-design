@@ -2,6 +2,7 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Link from 'next/link';
 const becomeprofessional = () => {
     return (
 
@@ -434,7 +435,7 @@ const becomeprofessional = () => {
                         </div>
                         <div className="salah-content-main professional-four">
                             <div className="salah-slider-images  profesional0imges">
-                                <img src="./images/descover.png" alt="" />
+                            <Link href="/professional_details"> <img src="./images/descover.png" alt="" /> </Link>
                             </div>
                             <div className="salah-all-content proffesionL-PADDING">
                                 <div className="salah-content-main-head">
@@ -515,7 +516,7 @@ const becomeprofessional = () => {
                         </div>
                         <div className="salah-content-main professional-four">
                             <div className="salah-slider-images  profesional0imges">
-                                <img src="./images/descover.png" alt="" />
+                            <Link href="/professional_details">    <img src="./images/descover.png" alt="" /> </Link>
                             </div>
                             <div className="salah-all-content proffesionL-PADDING">
                                 <div className="salah-content-main-head">

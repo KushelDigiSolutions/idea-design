@@ -3026,6 +3026,213 @@ input:checked+.slider:before {
   align-items: center;
   justify-content: space-between;
 }
+/****************************************************/
+#Sign_in{
+  background-color: #ffffff;
+  border-bottom: 1px solid #E7EAEC;
+}
+#Sign_in .headeer-main h1{
+  font-family: Circular Std;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #16171B;
+}
+#Sign_in  .header-container{
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 10px 40px;
+}
+.input-collection{
+  width: 500px;
+  max-width: 100%;
+  border-radius: 24px;
+  border: 1px solid #EFF1F3;
+  background-color: #FFFF;
+ 
+}
+.center-forgot{
+  display: block;
+  margin: auto;
+}
+.sub-input-coolection{
+  padding: 30px 80px;
+  text-align: center;
+}
+.signup-with p{
+ width: 100%;
+  padding: 15px;
+  font-family: Circular Std;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #0A243F;
+  margin-bottom: 0px !important;
+  }
+.signup-with{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #E7EAEC;
+  border-radius: 8px;
+  padding: 0px 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.or-option hr{
+  height: 1px;
+  width: 150px;
+  max-width: 100%;
+  color: #D7DCE0;
+}
+.or-option h2{
+  
+font-family: Circular Std;
+font-size: 18px;
+font-weight: 500;
+line-height: 17.71px;
+letter-spacing: 0.0025em;
+text-align: left;
+color: #495D71;
+margin: 0px 10px;
+}
+.or-option{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Sign-in-containt{
+  background-image: url("../public/images/bg-blob.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sigin_container{
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 50px;
+}
+.top-2sec input{
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 20.24px;
+letter-spacing: 0.005em;
+text-align: left;
+outline: none;
+width: 100%;
+border: none;
+}
+.user-detail-input{
+ border-radius: 8px;
+  border: 1px solid #495D71;
+  margin: 20px 0px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.forget-pasword h2 a {
+  text-decoration: none;
+  color: #0B56E4;
+}
+.forget-pasword h2 {
+text-decoration: none;
+font-family: Circular Std;
+font-size: 14px;
+font-weight: 450;
+line-height: 17.71px;
+letter-spacing: 0.0025em;
+text-align: left;
+}
+.bg-bootom-change{
+  padding: 20px 25px;
+  background-color: #E7EAEC;
+  border-radius: 8px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.bg-bootom-change h2{
+  font-family: Circular Std;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+text-align: center;
+color: #495D71;
+}
+.create-acount h2 a{
+  text-decoration: none;
+  color: #0B56E4;
+}
+.create-acount h2{
+  font-family: Circular Std;
+  font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+text-align: center;
+color:#495D71 ;
+}
+.create-acount span{
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 20.24px;
+letter-spacing: 0.005em;
+text-align: left;
+color: #495D71;
+}
+.sigin-acount h2 a{
+  text-decoration: none;
+  color: #0B56E4;
+}
+.sigin-acount h2{
+  font-family: Circular Std;
+  font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+text-align: center;
+margin: 20px 0px;
+
+}
+.sigin-acountt span{
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 20.24px;
+letter-spacing: 0.005em;
+text-align: left;
+color: #495D71;
+}
+.sigin-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botttom-termaandcon p{
+  font-family: Circular Std;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.71px;
+  letter-spacing: 0.0025em;
+  text-align: center;
+  color:#495D71 ;
+}
+.botttom-termaandcon p span{
+  font-family: Circular Std;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.71px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+  color: #0B56E4;
+  }
 /* ********************************************* */
 .change-bg-container {
   display: block;
@@ -3132,7 +3339,184 @@ input:checked+.slider:before {
     gap: 15px;
   }
 }
+/* *********************************************************************************** */
 
+#forget-pasword{
+
+  background-image: url("../public/images/bg-blob.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.forget-pasword-container{
+  max-width: 1440px;
+  width: 100%;
+ display: block;
+ margin: auto;
+ padding: 100px 20px 20px 20px;
+}
+.forget-pasword-main{
+  background-color: #FFFFFF;
+  border: 1px solid #EFF1F3;
+  border-radius: 24px;
+  max-width: 575px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.forgot-pass-xyyz{
+  padding: 40px 90px;
+}
+.forget-pasword-containt h1{
+  color: #0A243F;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.forget-pasword-containt p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.71px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+  color: #495D71;
+  padding-bottom: 10px;
+  width: 24em;
+}
+.forget-pasword-containt input{   
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  outline: none;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #495D71;
+  margin: 20px 0px;
+  padding: 10px;
+}
+.forgot-bttn button{
+  padding: 20px 25px;
+  background-color: #E7EAEC;
+  border-radius: 8px;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  color: #495D71;
+  border: none;
+  width: 100%;
+}
+@media(max-width:554px){
+  .forget-pasword-containt p .sign-up-verify-containt p{
+      width: 100%;
+  }
+  .forgot-pass-xyyz .sign-up-verify-xyyz{
+      padding:40px 25px;
+  }
+}
+@media(max-width:393px){
+  .forgot-bttn button{
+      padding: 20px 0px;
+      font-size: 15px;
+  }
+}
+/* }**********************((***************************************************** */
+#sign-up-verify{
+
+  background-image: url("../public/images/bg-blob.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.sign-up-verify-container{
+  max-width: 1440px;
+  width: 100%;
+ display: block;
+ margin: auto;
+ padding: 100px 20px 20px 20px;
+}
+.sign-up-verify-main{
+  background-color: #FFFFFF;
+  border: 1px solid #EFF1F3;
+  border-radius: 24px;
+  max-width: 575px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.sign-up-verify-xyyz{
+  padding: 40px 90px;
+}
+.sign-up-verify-containt h1{
+  color: #0A243F;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.sign-up-verify-containt p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.71px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+  color: #495D71;
+  padding-bottom: 10px;
+  width: 24em;
+}
+.sign-up-verify-containt p span{
+  color: #FF5A5F;
+}
+.sign-up-verify-containt input{   
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  outline: none;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #495D71;
+  margin: 20px 0px;
+  padding: 10px;
+}
+.sign-up-verify button{
+  padding: 20px 25px;
+  background-color: #E7EAEC;
+  border-radius: 8px;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  color: #495D71;
+  border: none;
+  width: 100%;
+}
+@media(max-width:554px){
+  .sign-up-verify-containt p{
+      width: 100%;
+  }
+  .sign-up-verify-xyyz{
+      padding:40px 25px;
+  }
+}
+@media(max-width:405px){
+  .sign-up-verify-containt p{
+      font-size: 14px;
+      text-align: center;
+  }
+}
 /* ********************************************************** */
 
 /* responsive csss ......................... */
@@ -4159,3 +4543,39 @@ border: none;
     text-align: center;
     
   }
+
+  @media(max-width:850px)
+{
+    .sigin_container{
+        padding: 45px;
+    }
+    .sub-input-coolection{
+        padding: 20px 60px;
+    }
+}
+@media(max-width:650px)
+{
+    .sigin_container{
+        padding: 30px;
+    }
+    .sub-input-coolection{
+        padding: 20px 40px;
+    }
+}
+@media(max-width:470px)
+{
+    .signup-with p{
+        font-size: 13px;
+        padding: 10px;
+        line-height: 17px;
+    }
+    .bg-bootom-change{
+        padding: 15px 20px;
+    }
+    .top-2sec input{
+        font-size: 14px;
+    }
+    .sigin-acount h2{
+        font-size: 15px;
+    }
+}
