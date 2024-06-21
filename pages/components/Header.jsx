@@ -65,12 +65,13 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <button
+                <Link href="/signin">
+                 <button
                   className="btn btn-outline-primary me-2 navbar-round"
                   href="#"
                 >
                   Login
-                </button>
+                </button></Link>
               </li>
               <li className="nav-item">
                <Link href="/becomeprofessional"> <button className="btn btn-outline-primary navbar-round">

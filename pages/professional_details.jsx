@@ -5,6 +5,15 @@ import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const professional_details = () => {
+
+    const [start,setStart] = useState(1);
+    const Change1 = () => {
+        setStart(1);      
+      }
+      const Change2 = () => {
+        setStart(2); 
+      }
+ 
     return (
         <>
             <Header />
@@ -148,16 +157,22 @@ const professional_details = () => {
                             <div className="iwhims-professional-content2">
                                 <div className="iwhims-professional-main-content1">
                                     <div className="iwhims-professional-content-flex-main">
-                                        <div className="iwhims-heading">
-                                            <h2>Overview</h2>
+                                        <div onClick={()=>{
+                                            Change1()
+                                        }} className="iwhims-heading"  >
+                                            <h2 id="display1" >Overview</h2>
                                         </div>
-                                        <div className="iwhims-heading2">
-                                            <h2>Review</h2>
+                                        <div onClick={()=>{
+                                            Change2()
+                                        }} className="iwhims-heading2">
+                                            <h2 id="display2">Review</h2>
                                         </div>
                                     </div>
 
                                     {/* first section ........... */}
-                                    {/* <div>
+                                    {
+                                      start === 1 && (
+                                        <div >
                                         <div class="iwhims-professional-content-para">
                                             <p>Hi, I’m Vibha and I have over 7 years of experience in Analytics and Data Sciences. I
                                                 am
@@ -255,12 +270,17 @@ const professional_details = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> */}
+                                    </div>
+                                      )
+                                    }
+                                    
                                     {/* first end section ............. */}
 
 
                                     {/* second section ............. */}
-                                    <div>
+                                    {
+                                        start === 2 &&(
+                                            <div >
                                         <div className="iwhims-dynamic-content">
                                             <div className="iwhims-review-heading2">
                                                 <h2>People often say</h2>
@@ -430,6 +450,9 @@ const professional_details = () => {
                                             </div>
                                         </div>
                                     </div>
+                                        )
+                                    }
+                                    
                                     {/* second end section .............. */}
                                 </div>
 
