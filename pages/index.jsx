@@ -65,7 +65,24 @@ export default function Home() {
     autoplay: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+     responsive: [
+      {
+        breakpoint: 778,
+        settings2: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 650,
+        settings2: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      
+    ],
   };
 
 
@@ -231,7 +248,7 @@ export default function Home() {
           <div className="seconr-card-convert">
             <div className="red-sec2">
               <div className="sect2-image-count">
-                <img src="/  ./images/Color Letter Avatar.png" alt="" />
+                <img src="./images/count1.png" alt="" />
               </div>
               <div className="title-sec2">
                 <h2>Ask Your Question</h2>
@@ -240,7 +257,7 @@ export default function Home() {
             </div>
             <div className="blue-sec2">
               <div className="sect2-image-count">
-                <img src="/  ./images/Color Letter Avatar (1).png" alt="" />
+              <img src="./images/count2.png" alt="" />
               </div>
               <div className="title-sec2">
                 <h2>Let Us Get You a Match</h2>
@@ -249,7 +266,7 @@ export default function Home() {
             </div>
             <div className="green-sec2">
               <div className="sect2-image-count">
-                <img src="/  ./images/Color Letter Avatar (2).png" alt="" />
+              <img src="./images/count3.png" alt="" />
               </div>
               <div className="title-sec2">
                 <h2>Interact with a Matched Expert
@@ -558,7 +575,7 @@ export default function Home() {
               <div className="salah-container">
                 <div className="salah-content-main">
                   <div className="salah-slider-images">
-                    <img src="/  ./images/descover.png" alt="" />
+                    <img src="./images/descover.png" alt="" />
                   </div>
                   <div className="salah-all-content">
                     <div className="salah-content-main-head">
@@ -619,7 +636,7 @@ export default function Home() {
               <div className="salah-container">
                 <div className="salah-content-main">
                   <div className="salah-slider-images">
-                    <img src="/  ./images/descover2.png" alt="" />
+                    <img src="./images/descover2.png" alt="" />
                   </div>
                   <div className="salah-all-content">
                     <div className="salah-content-main-head">
@@ -680,7 +697,7 @@ export default function Home() {
               <div className="salah-container">
                 <div className="salah-content-main">
                   <div className="salah-slider-images">
-                    <img src="/  ./images/descover3.png" alt="" />
+                    <img src="./images/descover3.png" alt="" />
                   </div>
                   <div className="salah-all-content">
                     <div className="salah-content-main-head">
@@ -741,7 +758,7 @@ export default function Home() {
               <div className="salah-container">
                 <div className="salah-content-main">
                   <div className="salah-slider-images">
-                    <img src="/  ./images/descover.png" alt="" />
+                    <img src="./images/descover.png" alt="" />
                   </div>
                   <div className="salah-all-content">
                     <div className="salah-content-main-head">
@@ -802,7 +819,7 @@ export default function Home() {
               <div className="salah-container">
                 <div className="salah-content-main">
                   <div className="salah-slider-images">
-                    <img src="/  ./images/descover2.png" alt="" />
+                    <img src="./images/descover2.png" alt="" />
                   </div>
                   <div className="salah-all-content">
                     <div className="salah-content-main-head">
@@ -1279,7 +1296,46 @@ export default function Home() {
           </div>
         </section>
       </div>
-
+      <div className="Accordion">
+        <div className="Accordion-main">
+          <div className="Accordion-contai">
+            <p>FAQ</p>
+            <h2>Most asked questions</h2>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button onClick={()=> setStrat1(!start1)} class="accordion-button faq22 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is your design process like?
+              </button>
+            </h2>
+            <div style={stylePeer1} id="flush-collapseOne" class="accordion-collapse collapse faq223" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl felis, blandit in laoreet sed, malesuada id elit. Duis sed odio blandit tortor maximus euismod. Phasellus convallis dolor vel suscipit sagittis. Donec aliquam leo suscipit, semper dui a, condimentum sem. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button onClick={()=> setStrat2(!start2)} class="accordion-button faq22 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              What is your design process like?
+              </button>
+            </h2>
+            <div style={stylePeer2} id="flush-collapseTwo" class="accordion-collapse collapse faq223" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button onClick={()=> setStrat3(!start3)}class="accordion-button faq22 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What is your design process like?
+              </button>
+            </h2>
+            <div style={stylePeer3} id="flush-collapseThree" class="accordion-collapse collapse faq223" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
       <div className="contac-salah">
         <div className="contac-salah-main">
           <div className="contac-salah-conatiners-main">
@@ -1345,46 +1401,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="Accordion">
-        <div className="Accordion-main">
-          <div className="Accordion-contai">
-            <p>FAQ</p>
-            <h2>Most asked questions</h2>
-          </div>
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button onClick={()=> setStrat1(!start1)} class="accordion-button faq22 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              What is your design process like?
-              </button>
-            </h2>
-            <div style={stylePeer1} id="flush-collapseOne" class="accordion-collapse collapse faq223" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl felis, blandit in laoreet sed, malesuada id elit. Duis sed odio blandit tortor maximus euismod. Phasellus convallis dolor vel suscipit sagittis. Donec aliquam leo suscipit, semper dui a, condimentum sem. </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button onClick={()=> setStrat2(!start2)} class="accordion-button faq22 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              What is your design process like?
-              </button>
-            </h2>
-            <div style={stylePeer2} id="flush-collapseTwo" class="accordion-collapse collapse faq223" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button onClick={()=> setStrat3(!start3)}class="accordion-button faq22 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              What is your design process like?
-              </button>
-            </h2>
-            <div style={stylePeer3} id="flush-collapseThree" class="accordion-collapse collapse faq223" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
+      
       
       <Footer />
     </div>

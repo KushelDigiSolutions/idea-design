@@ -221,11 +221,11 @@ color: #495D71;
 width: 18em;
 
 }
-#third_section{
-background-color: #FAFAFB;
+.fourth-top-sec{
+  text-align: center;
 }
 #third_section  .container{
-  padding: 60px !important ;
+  padding: 0px 60px 60px 60px !important ;
 }
 #third_section  .container h2{
   font-family: CircularStd; 
@@ -238,6 +238,7 @@ background-color: #FAFAFB;
   width: 265px !important;
   max-width: 100%;
   flex: none !important;
+  padding-top: 12px;
 }
 #third_section .col-lg-2 .inner_div{
   background-color:  #F7F8F9; 
@@ -1136,7 +1137,7 @@ justify-content: center;
 .salahn-username{
 display: flex;
 flex-direction: column;
-gap: 10px;
+/* gap: 10px; */
 justify-content: center;
 margin-left: 15px;
 }
@@ -1233,7 +1234,7 @@ padding: 25px 0px;
 overflow-x: scroll;
 scrollbar-width: none;
 scroll-behavior: smooth;
-gap: 35px;
+gap: 47px;
 -ms-overflow-style: none;  
 
 }
@@ -1880,7 +1881,7 @@ padding: 60PX;
   scrollbar-width: none;
   -ms-overflow-style: none;  
   overflow-x: scroll;
-  gap: 35px;
+  gap: 40px;
 }
 
 .fifth-section-crouser-sec::-webkit-scrollbar {
@@ -3420,6 +3421,7 @@ color: #495D71;
   .forgot-pass-xyyz .sign-up-verify-xyyz{
       padding:40px 25px;
   }
+ 
 }
 @media(max-width:393px){
   .forgot-bttn button{
@@ -4064,11 +4066,14 @@ color: #495D71;
       width: 100%;
     }
     #First_section .row h1 {
-     font-size: 37px;
-     line-height: 44px;
+      font-size: 33px;
+      line-height: 42px;
+      text-align: left;
+
     }
     #First_section .row p{
-        font-size: 19px;
+      font-size: 22px;
+      text-align: left;
     }
     #fourth_section .row h1{
         font-size: 31px;

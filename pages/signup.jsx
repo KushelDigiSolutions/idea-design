@@ -111,7 +111,7 @@ const signup = () => {
                                 </div>
                                 <div className="top-2sec">
                                     <div className="bg-bootom-change">
-                                      <Link href="/signupverification"><h2>Create acount</h2> </Link> 
+                                      <Link href="/signupverification "><h2>Create acount</h2> </Link> 
                                     </div>
                                     <div className="sigin-acount">
                                         <h2>
