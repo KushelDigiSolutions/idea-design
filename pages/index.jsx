@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { FreeMode, Pagination , Navigation , Autoplay } from "swiper/modules";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -439,12 +440,12 @@ export default function Home() {
                 global community.
               </p>
               <div className="fourth-btn-div">
-                <button
+              <Link href="/about"> <button
                   type="button"
                   className="btn btn-outline-primary btn-fourth"
                 >
                   Know more
-                </button>
+                </button></Link> 
               </div>
             </div>
           </div>
@@ -680,12 +681,12 @@ export default function Home() {
               journey.
             </p>
             <div className="button-center-six">
-              <button
+             <Link href="/about"><button
                 type="button"
                 className="btn btn-outline-primary btn-sixth"
               >
                 Know more
-              </button>
+              </button></Link> 
             </div>
           </div>
         </div>
