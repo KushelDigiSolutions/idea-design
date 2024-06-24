@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Slider from "react-slick";
+import Link from 'next/link';
 
 const About = () => {
   const [start4, setStart4] = useState(false);
@@ -67,9 +68,9 @@ const About = () => {
             Join Our <span>Expert Network&nbsp;</span>  at iWhims
             </h1>
             <div className="become-first-btnun">
-              <button className="btn btn-outline-primary navbar-round" href="#">
+            <Link href="/becomeprofessional">  <button className="btn btn-outline-primary navbar-round" href="#">
                 Become Professional
-              </button>
+              </button> </Link>
             </div>
           </div>
         </div>
@@ -96,9 +97,9 @@ const About = () => {
               <span>Join us</span>.&nbsp;We’ll help you every step of the way.
             </h2>
             <div className="become-third-btnun">
-              <button className="btn btn-outline-primary navbar-round" href="#">
+           <Link href="/becomeprofessional"><button className="btn btn-outline-primary navbar-round" href="#">
                 Become Professional
-              </button>
+              </button> </Link> 
             </div>
           </div>
           <div class="crouser-become-third">
@@ -175,9 +176,9 @@ const About = () => {
                 them with a partner tag!
               </p>
               <div className="become-btun-four">
-                <button className="btn btn-outline-primary navbar-round" href="#">
+              <Link href="/becomeprofessional">  <button className="btn btn-outline-primary navbar-round" href="#">
                   Become Professional
-                </button>
+                </button> </Link>
               </div>
             </div>
           </div>

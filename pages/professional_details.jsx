@@ -3,6 +3,8 @@ import Footer from './components/Footer'
 import { useEffect, useRef, useState } from 'react';
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 const professional_details = () => {
 
@@ -13,6 +15,7 @@ const professional_details = () => {
       const Change2 = () => {
         setStart(2); 
       }
+      const [value, setValue] = useState(new Date());
  
     return (
         <>
@@ -556,7 +559,7 @@ const professional_details = () => {
                                 <div className="iwhims-professional-cards-2">
                                     <div className="iwhims-professional-cards-main">
                                         <div className="iwhims-professional-cards-content">
-                                            <div className="iwhims-professional-caards-first-section">
+                                            {/* <div className="iwhims-professional-caards-first-section">
                                                 <h2>Available sessions</h2>
                                                 <p>Sessions from the options based on your needs</p>
                                                 <div className="iwhims-prodfessional-dates">
@@ -577,7 +580,10 @@ const professional_details = () => {
                                                         <p>06 Jun</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
+                                             <div>
+                                             <Calendar onChange={setValue} value={value} /> 
+                                        </div>
                                             <div className="iwhims-professional-right-card-section2">
                                                 <div className="iwhims-professional-icons-paara">
                                                     <h2>Available time slots</h2>

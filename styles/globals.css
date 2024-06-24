@@ -2707,6 +2707,7 @@ padding: 60PX;
   line-height: 20px;
   font-weight: 500;
   color: #495D71;
+  margin-bottom: 0px !important;
 }
 
 #iwhims-professional-details .button-group-iwhims-professional button {
@@ -3347,6 +3348,14 @@ color: #495D71;
     gap: 15px;
   }
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.react-calendar {
+  border: none !important;
+  background-color: transparent !important;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+}
 /* *********************************************************************************** */
 
 #forget-pasword{
@@ -3831,6 +3840,18 @@ color: #495D71;
       width: 100%;
       text-align: center;
     }
+    .location-menu{
+      width: 100%;
+      justify-content: space-between;
+      border-radius: 0px;
+    }
+    .search-problem{
+      border-radius: 0px;
+    }
+
+    #First_section .row{
+      gap: 23px;
+    }
 
     .centere-in-max{
      display: flex;
@@ -4125,7 +4146,10 @@ color: #495D71;
   }
 }
   @media(max-width:740px){
-   
+    #discover-people-section .five-heading h2{
+      font-size: 29px;
+      line-height: 47px;
+    }
     .sixth-section p{
       width: 100%;
     }
@@ -4310,6 +4334,13 @@ color: #495D71;
       padding: 30px;
     }
   }
+  @media(max-width:500px){
+  .swiper-backface-hidden .swiper-slide{
+      justify-content: center;
+      display: flex;
+  }
+
+}
   @media(max-width:480px){
   .eight-main1-640{
     display: none;
